@@ -84,6 +84,7 @@ following exercises are just to get you started but you can find many more tutor
    we highly recommend installing the following packages:
 
    * `Python`: general python support
+   * `Python for VSCode`: python syntax support
    * `Python Test Explorer for Visual Studio Code`: support for testing of python code (we get to that in a later lecture)
    * `Jupyter`: support for jupyter notebooks directly in VSCode
 
@@ -98,9 +99,9 @@ following exercises are just to get you started but you can find many more tutor
 
 3. One of the most useful tools in VSCode is the ability to navigate a hole project using the build-in
    `Explorer`. To really take advantage of the VC code you need to make sure what you are working on is a project.
-   Create a folder called `hello` (somewhere on your laptop) and open it in VScode (Click `File` in the menu and then
+   Create a folder called `hallo` (somewhere on your laptop) and open it in VScode (Click `File` in the menu and then
    select `Open Folder`). You should end up with a completly clean workspace (as shown below). Click the `New file`
-   button and create a file called `hello.py`.
+   button and create a file called `hallo.py`.
 
    <p align="center">
      <img src="../figures/toolbar_new_file.png" width="700">
@@ -108,7 +109,7 @@ following exercises are just to get you started but you can find many more tutor
      <a href="https://code.visualstudio.com/docs/python/python-tutorial"> Image credit </a>
    </p>
 
-4. Finally, lets run some code. Add something simple to the `hello.py` file like:
+4. Finally, lets run some code. Add something simple to the `hallo.py` file like:
    <p align="center">
      <img src="../figures/run_python_file.png" width="700">
      <br>
