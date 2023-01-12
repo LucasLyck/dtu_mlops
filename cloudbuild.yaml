@@ -1,5 +1,5 @@
 steps:
    - name: 'gcr.io/cloud-builders/docker'
-     args: ['build', '-t', 'gcr.io/<project-id>/<image-name>', '.']
+     args: ['build', '-t', 'gcr.io/mlopsProject/test-image', '.']
    - name: 'gcr.io/cloud-builders/docker'
-     args: ['push', 'gcr.io/<project-id>/<image-name>']
+     args: ['push', 'gcr.io/mlopsProject/test-image']
